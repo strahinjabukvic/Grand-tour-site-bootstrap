@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><i class="far fa-map"></i> Grand tour</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Packages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">Contact</a>
+              </li>
+              <button class="btn btn-danger">Book now</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- slider  -->
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <img src="img/slide-woman.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-3">Book Your Flights</h5>
+              <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque?</p>
+              <button class="btn btn-lg btn-outline-primary">About us</button>
+              <button class="btn btn-lg btn-outline-primary">Book A Tour</button>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <img src="img/slide-cocktail.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 class="display-3">Discounted flight deals</h5>
+              <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque?</p>
+              <button class="btn btn-lg btn-outline-primary">About us</button>
+              <button class="btn btn-lg btn-outline-primary">Book A Tour</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+       <!-- intro  -->
+
+       <section class="intro container py-5">
+          <div class="row align-items-center">
+              <div class="col-md-7 col-sm-12">
+                  <h2>We Will Take You To The Top Destination In The World,  <span>Explore</span> With Us!</h2>
+                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae officia natus ab obcaecati, dignissimos, totam in, numquam aspernatur repellendus tempora voluptatum quos eos! Nam nulla provident blanditiis nemo iure! Quia ab similique mollitia nemo, sequi fugit autem laudantium neque tenetur!</p>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum consequuntur mollitia nesciunt iusto, doloremque rem eos repellendus eaque consectetur perspiciatis doloribus nulla veniam magni a dolore et deleniti expedita incidunt?</p>
+              </div>
+              <div class="col-md-5 col-sm-12">
+                  <img class="img-fluid" src="img/intro.jpg" alt="">
+              </div>
+          </div>
+       </section>
+
+       <!-- counter  -->
+
+       <section class="counter container text-center pb-5">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <i class="far fa-smile"></i>
+              <h2>1000+</h2>
+              <h4>Happy customers</h4>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <i class="fas fa-plane"></i>
+              <h2>2791</h2>
+              <h4>Tours and travels</h4>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <i class="fas fa-globe-americas"></i>
+              <h2>259</h2>
+              <h4>Destinations</h4>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <i class="fas fa-clock"></i>
+              <h2>15 + <small>years</small></h2>
+              <h4>Experience</h4>
+            </div>
+          </div>
+       </section>
+
+       <!--plan -->
+       <section class="plan py5 text-white text-center">
+         <div class="container">
+           <h2 class="display-3 text-center">How To Plan Your Trip</h2>
+           <div class="row">
+             <div class="col-md-4">
+               <div class="icons">
+                 <i class="fas fa-map-marker-alt"></i>
+                </div>
+                 <h3>Pick destinations</h3>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda obcaecati dolore iste distinctio perspiciatis iure neque magnam hic aliquam laboriosam, itaque quasi, possimus sit illo!</p>
+
+             </div>
+
+             <div class="col-md-4">
+              <div class="icons">
+                <i class="fas fa-calendar-alt"></i>
+              </div>
+                <h3>Select date</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda obcaecati dolore iste distinctio perspiciatis iure neque magnam hic aliquam laboriosam, itaque quasi, possimus sit illo!</p>
+
+            </div>
+
+            <div class="col-md-4">
+              <div class="icons">
+                <i class="fas fa-gift"></i>
+              </div>
+                <h3>Enjoy the trip</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda obcaecati dolore iste distinctio perspiciatis iure neque magnam hic aliquam laboriosam, itaque quasi, possimus sit illo!</p>
+              
+            </div>
+           </div>
+         </div>
+       </section>
+
+        <!-- packages -->
+        <section class="packages container py-5">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <div class="price">
+                  <img class="card-img-top" src="img/thailand.jpg" alt="">
+                  <p><i class="fas fa-tags">&nbsp;240$</i></p>
+                </div>
+                  <div class="card-body">
+                    <p class="lead"><i class="fas fa-map-marker-alt"></i>&nbsp;Destination</p>
+                    <h5 class="card-title">Thailand</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum cumque obcaecati suscipit harum reprehenderit optio. Ratione commodi molestiae tempore aut?</p>
+                    <p><i class="fas fa-clock"></i>&nbsp;Duration 
+                    <span class="font-weight-bold">10 days</span></p>
+                  </div>
+                
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <div class="price">
+                  <img class="card-img-top" src="img/bali.jpg" alt="">
+                  <p><i class="fas fa-tags">&nbsp;240$</i></p>
+                </div>
+                  <div class="card-body">
+                    <p class="lead"><i class="fas fa-map-marker-alt"></i>&nbsp;Destination</p>
+                    <h5 class="card-title">Bali</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum cumque obcaecati suscipit harum reprehenderit optio. Ratione commodi molestiae tempore aut?</p>
+                    <p><i class="fas fa-clock"></i>&nbsp;Duration 
+                    <span class="font-weight-bold">10 days</span></p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <div class="price">
+                  <img class="card-img-top" src="img/venice.jpg" alt="">
+                  <p><i class="fas fa-tags">&nbsp;240$</i></p>
+                </div>
+                  <div class="card-body">
+                    <p class="lead"><i class="fas fa-map-marker-alt"></i>&nbsp;Destination</p>
+                    <h5 class="card-title">Venice</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum cumque obcaecati suscipit harum reprehenderit optio. Ratione commodi molestiae tempore aut?</p>
+                    <p><i class="fas fa-clock"></i>&nbsp;Duration 
+                    <span class="font-weight-bold">10 days</span></p>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <div class="card">
+                <div class="price">
+                  <img class="card-img-top" src="img/maldivi.jpg" alt="">
+                  <p><i class="fas fa-tags">&nbsp;240$</i></p>
+                </div>
+                  <div class="card-body">
+                    <p class="lead"><i class="fas fa-map-marker-alt"></i>&nbsp;Destination</p>
+                    <h5 class="card-title">Maldivi</h5>
+                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum cumque obcaecati suscipit harum reprehenderit optio. Ratione commodi molestiae tempore aut?</p>
+                    <p><i class="fas fa-clock"></i>&nbsp;Duration 
+                    <span class="font-weight-bold">10 days</span></p>
+                  </div>
+              </div>
+            </div>
+            <button type="button" class="btn btn-lg btn-danger">View All Packages</button>
+          </div>
+        </section>
+
+        <!-- enjoy trip-->
+
+        <div class="jumbotron trip py-5">
+          <div class="container py-5">
+            <h2 class="">Enjoy the trip</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam aut quo cum obcaecati molestiae quas reprehenderit totam illum ex cupiditate.
+            </p>
+            <button type="button" class="btn btn-lg btn-outline-primary">Book Now</button>
+          </div>
+        </div>
+
+         <!-- destinations -->
+        <div class="destinations container py-5 text-center">
+          <div class="row py-4">
+            <div class="col-md-12">
+              <h2 class="display-4">Popular destinations</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, quas voluptates! Laboriosam doloribus fugit suscipit numquam sed incidunt! Assumenda, atque!</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h4>Italy</h4>
+              <img class="img-fluid" src="img/italia.jpg" alt="">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <h4>Malta</h4>
+              <img class="img-fluid" src="img/malta.jpg" alt="">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <h4>Greece</h4>
+              <img class="img-fluid" src="img/greece.jpg" alt="">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+
+            <div class="col-md-3">
+              <h4>Croatia</h4>
+              <img class="img-fluid" src="img/croatia.jpg" alt="">
+              <div class="stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- footer -->
+        <footer>
+          <div class="bg-dark py-5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3">
+                  <h4>Adress</h4>
+                  <ul class="list-unstyled">
+                    <li>Location:1234 Lock,Charlotte</li>
+                    <li>Phone:+123 456 465</li>
+                    <li>Email:info@office.com</li>
+                    <li>Fx:+123 456 465</li>
+                  </ul>
+                </div>
+
+                <div class="col-md-3">
+                  <h4>About us</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste sequi tenetur ullam laudantium similique voluptates id debitis non qui incidunt.</p>
+                  <ul class="list-unstyled socials">
+                    <li><img src="img/facebook.png" alt=""></li>
+                    <li><img src="img/google.png" alt=""></li>
+                    <li><img src="img/linkedin.png" alt=""></li>
+                    <li><img src="img/youtube.png" alt=""></li>
+                  </ul>
+                </div>
+
+                  <div class="col-md-3">
+                    <h4>Travel places</h4>
+                    <ul class="list-unstyled">
+                      <li>Greece</li>
+                      <li>Italy</li>
+                      <li>Spain</li>
+                      <li>Montenegro</li>
+                      <li>Croatia</li>
+                      <li>Turkey</li>
+                    </ul>
+                  </div>
+
+                  <div class="col-md-3">
+                    <h4>Newsletter</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, atque?</p>
+                    <input type="email" placeholder="Enter your email..."><a href=""><i class="fas fa-paper-plane"></i></a></i>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+        </footer>
+
+        <!-- bottom bar -->
+
+        <section class="bottomBar text-center">
+          <p>&copy;2020. Grand Tour. All Rights Reserved | Design By Webcon</p>
+        </section>
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+  </body>
+</html>
